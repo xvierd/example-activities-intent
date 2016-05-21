@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Homework-Week02-App-Material-Design</string>
+    <string name="full_name">Nombre Completo</string>
+    <string name="next">Siguiente</string>
+    <string name="confirmar_datos">Confirmar Datos</string>
+    <string name="fecha_de_nacimineto">Fecha de Nacimineto:</string>
+    <string name="tel">Tel.</string>
+    <string name="email">Email:</string>
+    <string name="descripci_n">Descripción:</string>
+    <string name="editar_datos">Editar Datos</string>
+    <string name="descripci_n_de_contacto">Descripción de Contacto</string>
+    <string name="tel_fono">Teléfono</string>
+</resources>

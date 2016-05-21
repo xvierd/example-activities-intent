@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.xavier.homework_week02_app_material_design.Details">
+
+    <TextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/confirmar_datos"/>
+
+    <TextView
+        android:id="@+id/tv_full_name"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_confirm"
+        android:layout_marginTop="10dp"
+        android:text="@string/editar_datos"/>
+
+    <TextView
+
+        android:id="@+id/date"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_below="@id/tv_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha_de_nacimineto"/>
+    <TextView
+        android:id="@+id/phone"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tel"/>
+    <TextView
+        android:id="@+id/email"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"/>
+    <TextView
+        android:id="@+id/description"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripci_n"/>
+
+    <Button
+        android:layout_width="@dimen/buttonRised"
+        android:layout_height="wrap_content"
+        android:theme="@style/ButtonStyleRaised"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/description"
+        android:onClick="edit"
+        android:text="@string/editar_datos"/>
+
+</RelativeLayout>
