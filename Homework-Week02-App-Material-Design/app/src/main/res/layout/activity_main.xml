@@ -86,7 +86,9 @@
 
             <android.support.design.widget.TextInputEditText
                 android:id="@+id/description"
-                android:maxLines="4"
+                android:maxLines="6"
+                android:lines="20"
+                android:minLines="3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/descripci_n_de_contacto" />
